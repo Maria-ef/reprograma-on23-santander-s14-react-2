@@ -1,6 +1,6 @@
-function Subtitle(props) {
+function Subtitle({content}) {
     return (
-        <h3>{props.children}</h3>
+        <h3>{content}</h3>
     )
 }
 

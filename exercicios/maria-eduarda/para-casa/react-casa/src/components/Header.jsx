@@ -1,9 +1,7 @@
 function Header({content}) {
     return (
-        <header>
-            <h1>{content}</h1>
-        </header>
+        <h1>{content}</h1>
     )
     }
     
-    export default Header;
+export default Header;

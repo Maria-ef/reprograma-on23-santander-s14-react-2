@@ -1,7 +1,7 @@
-function Image(props) {
+function Image({img, altText}) {
     return (
-        <img src={props.img} />
+        <img src={img} alt={altText}></img>
     )
     }
     
-    export default Image
+    export default Image;

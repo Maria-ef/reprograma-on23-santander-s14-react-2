@@ -1,7 +1,7 @@
-function Text(props) {
+function Text({content}) {
     return (
-        <p>{props.text}</p>
+        <p>{content}</p>
     )
     }
     
-    export default Text
+    export default Text;

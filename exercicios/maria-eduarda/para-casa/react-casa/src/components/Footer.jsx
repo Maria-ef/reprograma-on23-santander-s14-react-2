@@ -1,8 +1,8 @@
+import Text from './Text'
+
 function Footer({content}) {
     return (
-        <footer className="footer">
-            {content}
-        </footer>
+        <Text content={content}/>
     )
 }
     

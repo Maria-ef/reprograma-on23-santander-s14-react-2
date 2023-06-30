@@ -1,6 +1,6 @@
-function Title(props) {
+function Title({content}) {
     return (
-        <h2>{props.text}</h2>
+        <h2>{content}</h2>
     )
 }
 

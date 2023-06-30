@@ -1,4 +1,4 @@
-import Title from "./Title"
+import Subtitle from "./Subtitle"
 import Text from "./Text"
 import Image from "./Image"
 
@@ -8,13 +8,13 @@ function Bio() {
     return (
         <div className="bio">
 
-        <Title text="Maria Eduarda"/>
-        <Text text="Tenho 23 anos, sou de Recife e estou em transição de carreira."/>
-        <Image img={maria} description="Maria"/>
+        <Subtitle content="Prazer, Maria Eduarda"/>
+        <Text content="Tenho 23 anos, sou de Recife e estou em transição de carreira."/>
+        <Image img={maria} altText="foto Maria"/>
         
 
         </div>
     )
     }
     
-    export default Bio
+    export default Bio;
